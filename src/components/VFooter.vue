@@ -4,18 +4,17 @@
       <div class="nets">
         <h3>FOLLOW US</h3>
         <div class="icons">
-          <img src="../images/vk.png"/>
-          <img src="../images/youTube.png"/>
-          <img src="../images/snapchat.png"/>
+          <img src="../images/vk.png" alt="vk"/>
+          <img src="../images/youTube.png" alt="youTube"/>
+          <img src="../images/snapchat.png" alt="snapchat"/>
         </div>
       </div>
       <div class="apps">
         <h3>REAL MADRID APP</h3>
         <div class="icons">
-          <img src="../images/appStore.png"/>
-          <img src="../images/googlePlay.png"/>
+          <img src="../images/appStore.png" alt="appStore"/>
+          <img src="../images/googlePlay.png" alt="googlePlay"/>
         </div>
-
       </div>
     </div>
     <div class="rights">
@@ -32,7 +31,7 @@
 
 .footer {
   background-color: #004996;
-  width: 101%;
+  width: 100%;
   margin-bottom: -10px;
   height: fit-content;
   display: flex;
@@ -76,7 +75,6 @@
 
 .nets {
   margin-top: -5px;
-
 }
 
 h3 {

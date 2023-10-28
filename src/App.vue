@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import MainPage from './pages/mainPage.vue';
+import MainPage from './pages/MainPage.vue';
 </script>
 
 <template>
@@ -9,5 +9,5 @@ import MainPage from './pages/mainPage.vue';
 </template>
 
 <style>
-
+  /*@import'../src/assets/vendor.scss';*/
 </style>

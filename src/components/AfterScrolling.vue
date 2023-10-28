@@ -15,17 +15,17 @@
     <GamesBand/>
     <hr>
     <h2>REAL MADRID TROPHIES</h2>
-    <trophies-band/>
-    <Footer/>
+    <TrophiesBand/>
+    <VFooter/>
   </div>
 </template>
 
 <script setup lang="ts">
 
-import GamesBand from "@/components/gamesBand.vue";
-import CardNews from "@/components/cardNews.vue";
-import TrophiesBand from "@/components/trophiesBand.vue";
-import Footer from "@/components/footer.vue";
+import GamesBand from "@/components/GamesBand.vue";
+import CardNews from "@/components/CardNews.vue";
+import TrophiesBand from "@/components/TrophiesBand.vue";
+import VFooter from "@/components/VFooter.vue";
 
 </script>
 
@@ -87,7 +87,7 @@ hr {
   color: #B3B3B3;
   background-color: #E0E0E0;
   height: 0;
-  width: 100%;
+  width: 98%;
 }
 
 
