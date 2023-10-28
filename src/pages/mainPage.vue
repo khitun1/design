@@ -32,7 +32,7 @@ document.addEventListener('scroll', e => {
 
   body {
     background-image: url('../images/Stadium.png');
-    background-repeat: no-repeat;
+
   }
 
 
