@@ -1,8 +1,8 @@
 <template>
   <div>
     <start-nav-bar v-if="showFirst" class="first"/>
-    <navBar v-else/>
     <div class="empty"/>
+    <navBar v-if="!showFirst"/>
     <after-scrolling />
 
 
@@ -20,7 +20,6 @@ const showFirst = ref(true);
 
 
 document.addEventListener('scroll', e => {
-  console.log(window.pageYOffset)
   showFirst.value = window.pageYOffset <= 650;
 })
 

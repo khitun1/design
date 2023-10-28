@@ -1,12 +1,14 @@
 <template>
-  <div class="nav">
-    <button>NEWS</button>
-    <button>SEASON</button>
-    <button>CLUB</button>
-    <img src="../images/Logo.png"/>
-    <button>SHOP</button>
-    <button>TICKETS</button>
-    <button>LOGIN</button>
+  <div class="fix">
+    <div class="nav">
+      <button>NEWS</button>
+      <button>SEASON</button>
+      <button>CLUB</button>
+      <img src="../images/Logo.png"/>
+      <button>SHOP</button>
+      <button>TICKETS</button>
+      <button>LOGIN</button>
+    </div>
   </div>
 </template>
 
@@ -23,19 +25,26 @@ $size: 75px;
   justify-content: space-around;
   align-items: center;
   margin-left: -10px;
-img {
-  width: $size;
-  height: $size;
+  img {
+    width: $size;
+    height: $size;
+  }
+  button {
+    background: none;
+    border: none;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
 }
-button {
-  background: none;
-  border: none;
-  color: white;
-  width: fit-content;
-  height: fit-content;
-  font-size: 24px;
-  font-weight: bold;
-  cursor: pointer;
-}
+
+.fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 </style>

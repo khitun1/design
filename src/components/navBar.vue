@@ -1,4 +1,5 @@
 <template>
+  <div class="fix">
     <div class="nav">
       <img src="../images/Logo.png"/>
       <button>NEWS</button>
@@ -12,6 +13,7 @@
         EN
       </button>
     </div>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -26,7 +28,8 @@ $size: 75px;
   margin-top: -10px;
   display: flex;
   width: 100%;
-  height: 65px;
+  padding-top: 5px;
+  height: fit-content;
   justify-content: space-between;
   align-items: center;
   img {
@@ -48,6 +51,13 @@ $size: 75px;
       height: 20px;
     }
   }
+}
+
+.fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 </style>

@@ -44,6 +44,7 @@ h1, h2 {
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  border-radius: 5px;
 }
 
 .headlines {
