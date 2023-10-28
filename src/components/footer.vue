@@ -41,6 +41,7 @@
   align-items: center;
   color: white;
   margin-top: 50px;
+  font-family: Arial;
 }
 
 .connection {

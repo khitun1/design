@@ -31,6 +31,7 @@ const {score, firstHalf, cur} = defineProps({
     justify-content: center;
     font-weight: bold;
     font-size: 24px;
+    font-family: Arial;
     }
 
   .firstHalf {
@@ -38,5 +39,6 @@ const {score, firstHalf, cur} = defineProps({
     justify-content: center;
     font-size: 24px;
     color: #B3B3B3;
+    font-family: Arial;
   }
 </style>

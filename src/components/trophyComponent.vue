@@ -20,7 +20,7 @@ const {amount, description} = defineProps({
 })
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
 .trophy {
   width: 239px;
@@ -29,6 +29,7 @@ const {amount, description} = defineProps({
   align-items: center;
   flex-direction: column;
   margin-right: 10px;
+
   * {
     margin-top: 5px;
   }
@@ -41,10 +42,12 @@ const {amount, description} = defineProps({
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Arial;
 }
 
 .amount {
   color: #004996;
   font-size: 30px;
+  font-family: Arial;
 }
 </style>

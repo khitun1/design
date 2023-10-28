@@ -22,11 +22,14 @@ h1 {
   color: #DFB51E;
   font-size: 20px;
   font-weight: bolder;
+  font-family: Arial;
 }
 
 p {
   color: #818181;
   font-size: 20px;
+  font-family: Arial;
+  text-indent: 30px;
 }
 
 .card {

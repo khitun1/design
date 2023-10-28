@@ -4,8 +4,6 @@
     <div class="empty"/>
     <navBar v-if="!showFirst"/>
     <after-scrolling />
-
-
   </div>
 </template>
 
