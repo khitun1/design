@@ -24,8 +24,6 @@ const {score, firstHalf, cur} = defineProps({
 </script>
 
 <style scoped>
-
-
   .score {
     display: flex;
     justify-content: center;
@@ -40,5 +38,10 @@ const {score, firstHalf, cur} = defineProps({
     font-size: 24px;
     color: #B3B3B3;
     font-family: Arial;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
   }
 </style>

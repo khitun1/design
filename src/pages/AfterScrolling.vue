@@ -56,6 +56,9 @@ h1, h2 {
   display: flex;
   flex-direction: row;
   width: 80%;
+  h1 {
+    cursor: pointer;
+  }
   h1:not(:first-child) {
     margin-left: 30px;
   }
@@ -68,6 +71,9 @@ h1, h2 {
   display: flex;
   flex-direction: row;
   width: 70%;
+  h2 {
+    cursor: pointer;
+  }
   h2:not(:first-child) {
     margin-left: 60px;
   }
