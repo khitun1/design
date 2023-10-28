@@ -45,6 +45,7 @@ h1, h2 {
   align-items: center;
   background-color: white;
   border-radius: 5px;
+  margin-top: 20px;
 }
 
 .headlines {
