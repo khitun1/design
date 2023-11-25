@@ -14,7 +14,7 @@
     </div>
     <GamesBand/>
     <hr>
-    <h2>REAL MADRID TROPHIES</h2>
+    <h1>REAL MADRID TROPHIES</h1>
     <TrophiesBand/>
     <VFooter/>
   </div>
@@ -35,6 +35,18 @@ import VFooter from "@/components/VFooter.vue";
 h1, h2 {
   color: #004996;
   font-family: Arial;
+}
+
+h1 {
+  @media screen and (max-width: 400px) {
+    font-size: 20px ;
+  }
+}
+
+h2 {
+  @media screen and (max-width: 400px) {
+    font-size: 14px ;
+  }
 }
 
 
@@ -79,6 +91,16 @@ h1, h2 {
   }
   h2:first-child {
     text-decoration: underline;
+  }
+
+  @media screen and (max-width: 400px) {
+    flex-direction: column;
+    h2:not(:first-child) {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+    margin-bottom: 20px;
+
   }
 }
 

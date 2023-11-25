@@ -2,7 +2,7 @@
   <div>
     <header>
       <StartNavbar v-if="showFirst" class="first"/>
-      <VNavbar v-else/>
+      <VNavbar class="navbar" v-else/>
     </header>
     <main>
       <div class="empty"/>
@@ -17,10 +17,18 @@ import {onBeforeUnmount, onMounted, ref} from "vue";
 import StartNavbar from "@/components/StartNavbar.vue";
 import VNavbar from "@/components/VNavbar.vue";
 
+
+
 const showFirst = ref(true);
 
 const onScroll = () => {
-  showFirst.value = window.pageYOffset <= 650;
+  const width = window.innerWidth;
+  if (width > 400) {
+    showFirst.value = window.pageYOffset <= 650;
+  }
+  else {
+    showFirst.value = window.pageYOffset <= 300;
+  }
 }
 
 onMounted(() => {
@@ -48,6 +56,9 @@ onBeforeUnmount(() => {
     height: 750px;
   }
 
+  .navbar {
+    z-index: 2;
+  }
 
 
 </style>

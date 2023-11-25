@@ -8,6 +8,6 @@ import MainPage from './pages/MainPage.vue';
   </div>
 </template>
 
-<style>
+<style scoped>
   /*@import'../src/assets/vendor.scss';*/
 </style>

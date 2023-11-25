@@ -22,32 +22,45 @@ const {amount, description} = defineProps({
 
 <style scoped lang="scss">
 
-.trophy {
-  width: 239px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-right: 10px;
+  .trophy {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10px;
 
-  * {
-    margin-top: 5px;
+    @media screen and (max-width: 400px) {
+
+      .amount {
+        font-size: 20px;
+      }
+
+      .des {
+        font-size: 12px;
+      }
+    }
+
+    * {
+      margin-top: 5px;
+    }
   }
-}
 
-.des {
-  text-align: center;
-  color: #818181;
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Arial;
-}
+  .des {
+    text-align: center;
+    color: #818181;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+  }
 
-.amount {
-  color: #004996;
-  font-size: 30px;
-  font-family: Arial;
-}
+  .amount {
+    color: #004996;
+    font-size: 30px;
+    font-family: Arial;
+
+
+  }
 </style>

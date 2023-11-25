@@ -30,12 +30,17 @@
           </a>
         </li>
       </ul>
-
+      <div class="menu">
+        <DropDown/>
+      </div>
     </nav>
   </div>
 </template>
 
 <script setup lang="ts">
+
+  import DropDown from "@/components/DropDown.vue";
+
 
 </script>
 
@@ -46,7 +51,7 @@ $size: 75px;
   background: #EAEAEA;
   display: flex;
   width: 100%;
-  height: 55px;
+  height: 60px;
   padding-top: 5px;
   align-items: center;
   font-family: Arial;
@@ -89,6 +94,24 @@ $size: 75px;
   top: 0;
   left: 0;
   width: 100%;
+}
+
+.menu {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .menu {
+    display: block;
+  }
+
+  .nav {
+    ul {
+      display: none;
+    }
+  }
 }
 
 </style>
